@@ -24,8 +24,8 @@ const Button = ({ value }) => {
     // Add Decimal (.)
     const commaClick = () => {
         setCalc({
-            ...calc, num : 89
-            // num : !calc.num.toString().includes('.')? calc.num + value : calc.num
+            // ...calc, num : 89
+            num : !calc.num.toString().includes('.')? calc.num + value : calc.num
         })
     }
 
